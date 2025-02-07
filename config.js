@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~uVITAJJL#7NjMeqyEWT2Z3mXZeNPzc9AcizNC-BtQ6JNC9ARnh1Q",
+    SESSION_ID: process.env.SESSION_ID || "SILENT-SOBX-MD~PMBChAja#Lc5OFADxSHPc3GCIgc5LTpHeOTuV9prtXADf0I7MgvE",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
@@ -17,8 +17,8 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
     ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M SILENT-SOBX-MD WHATSAPP BOT 😊♻️",
-    ANTI_LINK: process.env.ANTI_LINK || "true",
-    ANTI_BAD: process.env.ANTI_BAD || "true",
+    ANTI_LINK: process.env.ANTI_LINK || "false",
+    ANTI_BAD: process.env.ANTI_BAD || "false",
     PREFIX: process.env.PREFIX || ".",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
@@ -31,7 +31,7 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME || "➺ѕเℓεɳƭ_ℓσѵε૨࿐",
     STATUS_REPLY: process.env.STATUS_REPLY || "``",
     STATUS_REACT: process.env.STATUS_REACT || "false",
-    ANTI_VV: process.env.ANTI_VV || "false",// true for anti once view 
+    ANTI_VV: process.env.ANTI_VV || "true",// true for anti once view 
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same", // change it to 'log' if you want to resend deleted message in ib chat 
     OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
